@@ -3,10 +3,10 @@
 
 Veiculo::Veiculo() {
     cout << "Digite o nome do veiculo: " << endl;
-    getline(std::cin, nome);  // Lê o nome do veículo e salva no nome
+    getline(cin, nome);  // Lê o nome do veículo e salva no nome
 }
 
-void Veiculo::setNome(const std::string& nomeVeiculo) {
+void Veiculo::setNome(const string& nomeVeiculo) {
     nome = nomeVeiculo;
 }
 
