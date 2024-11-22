@@ -2,7 +2,6 @@
 #define VEICULO_H
 #include <iostream>
 #include <string>
-#include <limits> // Para limpar o buffer de entrada
 
 using namespace std;
 
