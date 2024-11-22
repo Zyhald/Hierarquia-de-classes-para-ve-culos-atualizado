@@ -18,8 +18,7 @@ int main() {
         cout << "Opcao: ";
         cin >> opcao;
 
-        // Limpeza do buffer de entrada para evitar problemas no próximo cin
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');  
+
 
         switch (opcao) {
             case 1:
