@@ -4,6 +4,7 @@
 Carro::Carro() : Veiculo() {
     cout << "Digite o numero de portas do carro: " << endl;
     cin >> numeroDePortas;
+    cin.ignore();
 }
 
 void Carro::mostrarDetalhes() const {
